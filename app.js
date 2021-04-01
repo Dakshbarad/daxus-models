@@ -19,9 +19,9 @@ app.get("/about",(req,res) =>{
     res.render("about");
 });
 
-app.get("/apply",(req,res) =>{
-    res.render("apply");
-});
+// app.get("/apply",(req,res) =>{
+//     res.render("apply");
+// });
 
 app.get("/contact",(req,res) =>{
     res.render("contact");

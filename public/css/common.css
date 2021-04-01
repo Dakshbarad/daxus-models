@@ -41,7 +41,7 @@ body{
     list-style: none;
     padding: 2rem 3rem 3rem 3rem;
     display: grid;
-    grid-template-columns: 5fr repeat(5,1fr);
+    grid-template-columns: 5fr repeat(4,1fr);
     align-items: center;
 }
 
