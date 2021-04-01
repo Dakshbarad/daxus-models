@@ -11,17 +11,13 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
-app.get("/models", (req, res) => {
-  res.render("models");
+app.get("/projects", (req, res) => {
+  res.render("projects");
 });
 
 app.get("/about", (req, res) => {
   res.render("about");
 });
-
-// app.get("/apply",(req,res) =>{
-//     res.render("apply");
-// });
 
 app.get("/contact", (req, res) => {
   res.render("contact");
