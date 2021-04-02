@@ -1,3 +1,88 @@
 
 @import "common.css";
 
+/* Overwrite some css code */
+body {
+    background-image: none;
+    background: var(--bgcolor);
+}
+
+/* Data container */
+
+.data-section {
+    padding: 5rem;
+    display: grid;
+    gap: 3rem;
+    place-items: center;
+}
+
+.header {
+    color: var(--primary);
+    font-size: 55px;
+    letter-spacing: 1.65px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+.mail-form{
+    background-color: var(--namebg);
+    width: 60%;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+}
+
+form{
+    display: grid;
+}
+
+.form-element{
+    display: grid;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+label{
+    color: var(--primary);
+    font-size: 25px;
+}
+
+input{
+    padding: .5rem .25rem;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea {
+    padding: .5rem .25rem;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input,textarea:focus{
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    margin: auto;
+    font-weight: 100;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--dark);
+    background: var(--primary);
+    padding: 0.5rem 3rem;
+    border: 0.1rem solid var(--primary);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.btn:hover {
+    color: var(--primary);
+    background: var(--dark);
+    border: 0.1rem solid var(--primary)
+}
+

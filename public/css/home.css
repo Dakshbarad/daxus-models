@@ -14,7 +14,7 @@
     color: var(--primary);
 }
 
-.new-york{
+.web-developer{
     font-weight: 200;
     font-size: 90px;
 }
@@ -22,6 +22,7 @@
 .info{
     line-height: 1.6;
     font-family: 'Questrial', sans-serif;
+    letter-spacing: .75px;
     font-weight: 700;
     margin-top: 1rem;
     width: 24rem;
