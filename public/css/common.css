@@ -6,9 +6,12 @@
     --namebg: #262626;
 }
 
-*{
+*,
+::after,
+::before{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html{
@@ -19,7 +22,6 @@ html{
 
 body{
     line-height: 1.4;
-    overflow-x: auto;
     overflow-y: scroll;
     background: black;
     background-size: cover;
@@ -27,7 +29,12 @@ body{
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+    max-width: 1170px;
     position: relative;
+}
+
+.main{
+    width: 95%;
 }
 
 /* Top navbar */
