@@ -1,9 +1,35 @@
-
 <!-- Social links section -->
 <div class="socials">
-    <ul>
-        <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
-        <li><a target="_blank" href="https://github.com/Dakshbarad"><i class="fab fa-github fa-2x"></i></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/daksh-barad-684472189/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-    </ul>
+  <ul>
+    <li>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://github.com/Dakshbarad"
+        ><i class="fab fa-github fa-2x"></i
+      ></a>
+    </li>
+    <li>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/daksh-barad-684472189/"
+        ><i class="fab fa-linkedin fa-2x"></i
+      ></a>
+    </li>
+  </ul>
 </div>
+
+<script>
+  function setSocialMargin() {
+    var size = window.outerWidth;
+    console.log("here");
+    if (size > 1170) {
+      document.querySelector(".socials ul").style.marginRight = `${
+        (size - 1170) / 2 + 64
+      }px`;
+    }
+  }
+  setSocialMargin();
+  window.addEventListener('resize', setSocialMargin);
+  console.log(window.outerWidth);
+</script>
